@@ -62,20 +62,47 @@ main,footer {
 .giallo{
     background-color: yellow;
 }
+
+/*tabella*/
+
 .top-left,.top-center,.top-right{
+    margin-top: 20px;
     float: left;
-    text-align: center;
     background-color:#20a9e5;
     color: white;
 }
 
+
 .top-left,.top-center{
     width: 20%;
+    text-align: center;
 }
 
 .top-right{
     width:60%
 }
+
+.core-left,.core-center,.core-right{
+    height: 40px;
+    background-color:#b1e5f2;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.core-left,.core-center{
+    width: 20%;
+    text-align: center;
+    padding:10px
+}
+
+.core-right{
+    width:60%
+}
+
+.table-core .white{
+    background-color: white;
+}
+
 
 footer{
     color: grey;
