@@ -8,18 +8,21 @@
 
 header{
     background-color:#4ea0ff; 
-    height: 50px;
-    
+    height: 100px;
+    background-image: url(../img/pattern.png);
+    background-size: 400px;
+      
 }
 
 .top-bar{
     width: 800px;
     margin: auto;
+
 }
 
 .logo{
-    height: 50px;
-    width:100px;
+    height: 100px;
+    width:200px;
     position:relative
 
 }
@@ -48,6 +51,6 @@ main, footer{
     font-size: 10px;
 }
 
-.articolo{
+.articolo, .punti-salienti{
     margin-top: 20px;
 }
